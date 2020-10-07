@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Ica Rubrik Bold";
+  src: url(./fonts/ICARubrikBold.woff) format("woff"),
+    url(./fonts/ICARubrikBold.ttf) format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Ica Rubrik Siffror";
+  src: url(./fonts/icarubriksiffror-webfont.woff2) format("woff2"),
+    url(./fonts/icarubriksiffror-webfont.woff) format("woff"),
+    url(./fonts/icarubriksiffror-webfont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Ica black font";
+  src: url(./fonts/icatext-black-webfont.woff2) format("woff2"),
+    url(./fonts/icatext-black-webfont.woff) format("woff"),
+    url(./fonts/icatext-black-webfont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Ica regular";
+  src: url(./fonts/ICATextWebRegular.woff) format("woff"),
+    url(./fonts/ICATextWebRegular.ttf) format("truetype");
 }
